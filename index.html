@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8" />
+      <title>Week 5 Assignment</title>
+      <script src="week5.js" charset="utf-8" async></script>
+      <link rel="stylesheet" href="stylesheet.css" />
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+   </head>
+   <body>
+      <div class="v-header container">
+         <header>
+            <h1>Worthington Records</h1>
+            <p>See console for output.</p>
+         </header>
+         <video class="fullscreen-video-wrap" autoplay muted loop>
+            <source src="video.mp4" type="video/mp4" />
+         </video>
+         <div class="color-overlay"></div>
+      <div class="text-center">
+         <form action="/" method="POST" autocomplete="off">
+            <h1 class="h3 mb-3 font-weight-normal">Add Record</h1>
+            <label for="artistName" class="sr-only">Artist Name</label>
+            <input
+               type="text"
+               name="artistName"
+               class="form-control top"
+               id="artistName"
+               placeholder="Artist Name"
+               required
+               autofocus
+            />
+            <label for="albumName" class="sr-only">Album Name</label>
+            <input
+               type="text"
+               name="albumName"
+               class="form-control middle"
+               id="albumName"
+               placeholder="Album Name"
+               required
+            />
+            <label for="inputYear" class="sr-only">Year</label>
+            <input
+               type="text"
+               name="albumYear"
+               class="form-control bottom"
+               id="albumYear"
+               placeholder="Album Year"
+               required
+            />
+            <button class="btn btn-lg btn-block btn-primary" id="myBtn" type="reset">
+               Add Record
+            </button>
+            <p class="mt-5 mb-3 text-muted">&copy; Kent Worthington 2020</p>
+         </form>
+      </div>
+      <!-- Create an unordered list with any questions you have -->
+   </body>
+  </div>
+</html>
